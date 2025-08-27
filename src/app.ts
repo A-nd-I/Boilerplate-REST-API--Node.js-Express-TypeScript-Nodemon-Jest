@@ -4,7 +4,7 @@ import 'dotenv/config';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({ "status": "ok" })
+    res.send({ "status": "oko" })
 });
 
 export default app;
